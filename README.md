@@ -17,7 +17,7 @@ I perform customer churn analysis for a U.S. based telecommunications giant, ide
 
 ## Female Churners:
 
-* Females older than 50 churn at a rate of 31% compared to 24% for those aged 40-50.
+* Females older than 50 churn at a rate of 32% compared to 24% for those aged 40-50.
 * Females who churned typically had a greater than 24 month tenure and were on the month-to-month contract.  These women mostly subscribed to Unlimited Data (67%), Phone Service (90.9%), Paperless Billing (59.5%), and Internet Service (77.7%).  This consumer group largely subscribed to the Fiber Optic (42.5%) internet.  The churners were based in Jammu & Kashmir (59%), like the rest of the churners (53.7%)
 * We lost 45% of the female customer base to the competitors for the following reasons:
      * Competitors made better offers (37%)
@@ -37,4 +37,4 @@ I perform customer churn analysis for a U.S. based telecommunications giant, ide
     
 # Business Recommendations
 
-
+# * Presentation generated using GenAI
