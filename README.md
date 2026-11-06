@@ -37,4 +37,4 @@ I perform customer churn analysis for a U.S. based telecommunications giant, ide
     
 # Business Recommendations
 
-# * Presentation generated using GenAI
+###### Presentation generated using GenAI
