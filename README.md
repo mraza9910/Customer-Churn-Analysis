@@ -6,20 +6,7 @@ I perform customer churn analysis for a U.S. based telecommunications giant, ide
 Analytics insights are synthesized into a Power BI dashboard
 <Add URL>
 
-## High Level Analysis
-
-# Business Recommendations
-
-### Train non-premium customer service staff, build bi-weekly accountability cadence, award bonuses based on customer service ratings:
-    * Premium Support customers stay 71.1% of the times, whereas we lose 18.2% and 17% of male and female customers due to attitude of support person or service providers. We lose 17% of the total customers due to attitude issues.
-### Investigate Product and Network Reliability issues on and lower prices for Fiber Optic:
-    * 42% of churners using Fiber Optics cite High Pricing as a reason.  Similarly, 22% cite network and service dissatisfaction, whereas 24% cite product dissatisfaction as a reason for churning.
-### Phone, Internet, and Unlimited Data subscribers chrun more.
-    * Investigate product offerings, device capabilities, as well as the whole offer package.  We lose 44% of the customers to the competitors.  Of the churned customers, 38 and 36% cite better device         and offers as the reason for switching.
-### Investigate marketing, customer/product service, and discounts offered on Fiber Optic and DSL in Jammu and Kashmir
-    * 77.05% of the churners in Jammu and Kashmir are going to competitors because they made better offers (94%).  Additionally, 70.4% of the user base in state is on Fiber Optic.
-    
-## Detailed Analysis:
+## Overview
 
 * The analysis spanned across 6,418 customers.  Of these 411 were new joiners, whereas 1,732 (27%) had churned
 * Churn Rate = 27%.  The time duration of this dataset is kept unclear due to confidentiality purposes
@@ -28,7 +15,7 @@ Analytics insights are synthesized into a Power BI dashboard
 Below, I identify groups with highest churn rates for every category:
 
 * Churn Rate by Age Group: Greater than 50 (31%)
-* Churn Rate by State: TK
+* Churn Rate by State: Jammu and Kashmir (57.2%)
 * Churn Rate by Contract and Internet Type, respectively: Month-to-Month (47%) and Fiber Optic (41%)
 * Churn Rate by Payment Method: Mailed Check (37.8%)
 * Churn Rate by Tenure: >= 24 Months (28%)
@@ -37,11 +24,40 @@ Below, I identify groups with highest churn rates for every category:
 * Churn Rate by Service: Phone Service (90.3%), Internet Service (78.3%), and Unlimited Data (67.5%)
 
 
+## Business Recommendations
+
+### Offer targeted discounts to female customers and schedule bi-annual device checks, conduct research on whether competitor has only female oriented product offerings
+* Losing 45% of the female churners to competitors
+* Of predicted churners, 65% are females
+
+### Train non-premium customer service staff, build bi-weekly accountability cadence, award bonuses based on customer service ratings:
+* Premium Support customers stay 71.1% of the times, whereas we lose 18.2% and 17% of male and female customers due to attitude of support person or service providers. We lose 17% of the total customers due to attitude issues.
+
+### Investigate marketing, customer/product service, and discounts offered on Fiber Optic, DSL, Unlimited Data, Phone, and Internet services in Jammu and Kashmir.  
+* 77.05% of the churners in Jammu and Kashmir are going to competitors because the competitor made better offers (94%).  Additionally, 70.4% of the user base in state is on Fiber Optic.
+
+### Investigate product and network reliability, lower prices, implement bi annual device health check, and run discount campaigns for Fiber Optic:
+* 38 and 36% of the churners using Fiber Optic cite better device and competitor offer as the reason for switching to competitors. Additionally, churners using Fiber Optics cite high pricing, network and service dissatisfaction, and product dissatisfaction as a reasons for churning.
+
+### Compare offers and device functionalities with competitor offering. Focus on Fiber Optic, Phone, Unlimited Data, and Internet service since we lose most customers there
+* We lose 44% of the customers to competitors who cite better devices and offers as the top two reasons (74% together)
+
+### Offer longer contracts for Phone, Internet, Unlimited Data, and Fiber Optic:
+* 47% of the churners are on a monthly contract for Phone, Internet, Unlimited Data, and Fiber Optic. Increasing the contract length may reduce churn because the churn rate is inversely proportional to the contract length
+* One month contracts work well for the Premium Support, Online Security, Online Backup and Device Protection Plan customers
+* 92% of the predicted churners are on a month-to-month contract, so they are largely not working!
+
+## Churners by Gender:
+
+I do a separate churners by gender analysis because of the churners predicted by Random Forest, 65% are females and 35% are males
+
 ## Female Churners:
 
 * Females older than 50 churn at a rate of 32% compared to 25% for those aged 40-50.
 * Females who churned typically had a greater than 24 month tenure (28.6%) and were on the month-to-month contract (46.5%).  These women mostly subscribed to Unlimited Data (67%), Phone Service (90.9%), Paperless Billing (59.5%), and Internet Service (77.7%).  This consumer group largely subscribed to the Fiber Optic (42.5%) internet.  The churners were based in Jammu & Kashmir (59%), like the rest of the churners (53.7%) and they relied on Mailed Check (37.3%) for payment purposes.
-  
+
+### Why We Lost The Female Customers?
+
 * We lost 45% of the female customer base to the competitors for the following reasons:
      * Competitors made better offers (37%)
      * Compeitors had better devices (36%)
@@ -72,7 +88,7 @@ Below, I identify groups with highest churn rates for every category:
 * Like females, males over 50 were 30.4% times likely churn than those aged 40-50 (22%)
 * Of the males churning, 26% had an over 24 month tenure with the company and were found to have a month-to-month contract (46.6%).  They were also largely based in Jammu and Kashmir (53.7%), used Fiber Optic (38.5%) internet, and subscribed to Unlimited Data (68.4%), Phone Service (89.2%), and Internet Service (79.4%).  58.4% were on paperless billing and 38.7% of the churned males used Mailed Check as a payment method.
 
-## Why We Lost The Male Customers?
+### Why We Lost The Male Customers?
 
 * We lost 43% of the male customer base to competitors for the following reasons:
      * Compeitors had better devices (41%)
@@ -99,9 +115,11 @@ Below, I identify groups with highest churn rates for every category:
      * Extra data charges (20%)
      * Lack of affordable download/upload speed (12%)
      
-# Who Stays?
+## Who does not churn?
 
-* Customers in: Online Security (71.6%) DO NOT churn), Premium Support (71.1%)
-* 
+* Online Security (71.6%), Premium Support (71.1%), 
 
-###### Presentation generated using GenAI
+## Next Steps
+
+* Analyze Voice of Customer and Customer Call Report records to understand what specifically in product or offers made is causing customers to switch.
+* Conduct focus group survey with females over 50 in Jammu and Kashmir who are on a month-to-month contract of Fiber Optic, Phone, Internet, and Unlimited Data Services to understand what is causing them to move to competitors.
