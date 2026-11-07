@@ -10,7 +10,7 @@ Customer Churn Analysis for a Telecommunication Provider (U.S. based telecommuni
 I perform customer churn analysis for a U.S. based telecommunications giant, identifying trends and patterns amongst the largest churning consumer groups by gender, age group, geography, services used, payment method, contract length, tenure, and internet service. The analysis also highlight the reasons for customer churn and implements a Random Forest to predict churn and identify high risk customers
 
 Analytics insights are synthesized into a Power BI dashboard
-<Add URL>
+📊 **[View Interactive Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDVjMDBlZjctZTllNS00NGRiLTk2ZTYtODliYTk2ZTRjYjBlIiwidCI6ImZiYmY2YzYwLTAzNDQtNGMyOS05NDU5LTcyNTY4NTczOWIxOSIsImMiOjN9)**
 
 ## Overview
 
