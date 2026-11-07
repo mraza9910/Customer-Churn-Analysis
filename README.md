@@ -1,3 +1,9 @@
+# Tech Stack: 
+* SQL, Python, Power BI
+
+# Model Implemented: 
+* Random Forests and Churn
+
 # Customer-Churn-Analysis
 Customer Churn Analysis for a Telecommunication Provider (U.S. based telecommunications provider examples: Verizon, Comcast, AT&T, etc.)
 
